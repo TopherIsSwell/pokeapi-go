@@ -1,10 +1,10 @@
 # pokeapi-go
-![Actions](https://github.com/mtslzr/pokeapi-go/workflows/Actions/badge.svg)
-![Release](https://img.shields.io/github/v/release/mtslzr/pokeapi-go)
-[![Codecov](https://img.shields.io/codecov/c/github/mtslzr/pokeapi-go.svg?style=flat)](https://codecov.io/gh/mtslzr/pokeapi-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mtslzr/pokeapi-go?style=flat)](https://goreportcard.com/report/github.com/mtslzr/pokeapi-go)
-[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat)](http://godoc.org/github.com/mtslzr/pokeapi-go)
-[![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)](https://raw.githubusercontent.com/mtslzr/pokeapi-go/master/LICENSE)
+![Actions](https://github.com/TopherIsSwell/pokeapi-go/workflows/Actions/badge.svg)
+![Release](https://img.shields.io/github/v/release/TopherIsSwell/pokeapi-go)
+[![Codecov](https://img.shields.io/codecov/c/github/TopherIsSwell/pokeapi-go.svg?style=flat)](https://codecov.io/gh/TopherIsSwell/pokeapi-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/TopherIsSwell/pokeapi-go?style=flat)](https://goreportcard.com/report/github.com/TopherIsSwell/pokeapi-go)
+[![GoDoc](https://img.shields.io/badge/go-documentation-blue.svg?style=flat)](http://godoc.org/github.com/TopherIsSwell/pokeapi-go)
+[![License](https://img.shields.io/badge/license-mit-blue.svg?style=flat)](https://raw.githubusercontent.com/TopherIsSwell/pokeapi-go/master/LICENSE)
 
 Wrapper for [Poke API](https://pokeapi.co), written in Go. *Supports PokeAPI v2.*
 
@@ -35,11 +35,11 @@ Full API documentation can be found at [Poke API](https://pokeapi.co/docs/v2.htm
 ## Getting Started
 
 ```bash
-go get github.com/mtslzr/pokeapi-go
+go get github.com/TopherIsSwell/pokeapi-go
 ```
 
 ```go
-import "github.com/mtslzr/pokeapi-go"
+import "github.com/TopherIsSwell/pokeapi-go"
 ```
 
 ## Endpoints
