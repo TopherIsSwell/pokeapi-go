@@ -204,7 +204,11 @@ type Pokemon struct {
 		Slot     int  `json:"slot"`
 	} `json:"abilities"`
 	BaseExperience int `json:"base_experience"`
-	Forms          []struct {
+	Cries          struct {
+		Latest string `json:"latest"`
+		Legacy string `json:"legacy"`
+	} `json:"cries"`
+	Forms []struct {
 		Name string `json:"name"`
 		URL  string `json:"url"`
 	} `json:"forms"`
@@ -252,6 +256,22 @@ type Pokemon struct {
 		FrontFemale      interface{} `json:"front_female"`
 		FrontShiny       string      `json:"front_shiny"`
 		FrontShinyFemale interface{} `json:"front_shiny_female"`
+		Other            struct {
+			OfficialArtwork struct {
+				FrontDefault string `json:"front_default"`
+				FrontShiny   string `json:"front_shiny"`
+			} `json:"official-artwork"`
+			Showdown struct {
+				BackDefault      string      `json:"back_default"`
+				BackFemale       interface{} `json:"back_female"`
+				BackShiny        string      `json:"back_shiny"`
+				BackShinyFemale  interface{} `json:"back_shiny_female"`
+				FrontDefault     string      `json:"front_default"`
+				FrontFemale      interface{} `json:"front_female"`
+				FrontShiny       string      `json:"front_shiny"`
+				FrontShinyFemale interface{} `json:"front_shiny_female"`
+			} `json:"showdown"`
+		} `json:"other"`
 	} `json:"sprites"`
 	Stats []struct {
 		BaseStat int `json:"base_stat"`
